@@ -1,0 +1,1 @@
+Popis penceresindeki Artikal ID / Име / Цијена / Количина alanlarını ayrıştırmak için Flutter kodu güncellendi. Bu bir test sürümüdür. Barkod numarası Popis penceresinde görünmediğinden barkod alanı boş bırakılır. Erişilebilirlik metninin gerçek biçimi cihazda doğrulanmalıdır.\n

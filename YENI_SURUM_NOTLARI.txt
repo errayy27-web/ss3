@@ -1,0 +1,13 @@
+SS OIL Stok Kontrol – güncellenmiş kaynak proje
+
+- Cadmus (com.mladost.cadmus) ekranından Artikal ID, ad, fiyat ve stok ayrıştırma.
+- Yeni ID ilk kez gelince barkod tarama/elle girme diyaloğu. Kayıtlı ID'de barkod korunur, fiyat ve stok yenilenir.
+- Kalıcı ürün veritabanı Artikal ID üzerinden tutulur; sayım temizliği bu veritabanını silmez.
+- Manuel ürün ekleme ve fiyat/stok düzenleme.
+- Excel (.xlsx) veya CSV içe aktarma: yalnızca önceden kayıtlı Artikal ID'lerin fiyat ve stok bilgileri güncellenir; bilinmeyen ID atlanır.
+- Excel dosyasını Android kaydetme penceresinden kaydetme; 4 sayfa: Stok Kontrol, Siparis Listesi, Urun Veritabani, Manuel Stok.
+- Cadmus'a dönme butonu paket adıyla açar.
+
+ÖNEMLİ: Bu paket APK değildir. Flutter/Codemagic üzerinden derlenmelidir. Bu ortamda gerçek Android derlemesi veya Cadmus erişilebilirlik çıktısı test edilmemiştir. Cadmus ekran metninin ayrıştırılması cihazda doğrulanmalıdır.
+
+KURULUM: ZIP içeriğini GitHub deposunun KÖK dizinine açın (ZIP'i tek başına depoya koymayın), değişiklikleri commit edin, ardından Codemagic'te yeni derleme başlatın.
